@@ -1,0 +1,17 @@
+:set ignorecase
+:set smartcase
+set visualbell
+set noerrorbells
+
+let mapleader=<space>
+set easymotion
+
+imap jk <Esc>
+
+nmap gh <Action>(QuickJavaDoc)
+nmap gi <Action>(GotoImplementation)
+nmap gy <Action>(ShowErrorDescription)
+nmap <space>b <Action>(ToggleLineBreakpoint)
+nmap / <Action>(Find)
+
+set number relativenumber
